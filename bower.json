@@ -1,0 +1,7 @@
+{
+  "name": "barinteractionviewer",
+  "private": true,
+  "dependencies": {
+    "cytoscape": "~2.3.4"
+  }
+}
