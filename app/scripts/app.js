@@ -1,13 +1,14 @@
-(function(window, $, undefined) {
+/*global cytoscape*/
+(function(window, $, cytoscape, undefined) {
   'use strict';
 
   console.log('Hello, BARInteractionViewer!');
 
-  var appContext = $('[data-app-name="barinteractionviewer"]');
+  // var appContext = $('[data-app-name="barinteractionviewer"]');
 
   /* Generate Agave API docs */
   window.addEventListener('Agave::ready', function() {
-    var Agave = window.Agave;
+    // var Agave = window.Agave;
 
     var DEBUG = true;
 
@@ -216,4 +217,4 @@
       });
     });
   });
-})(window, jQuery);
+})(window, jQuery, cytoscape);
